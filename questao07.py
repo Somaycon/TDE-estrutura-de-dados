@@ -9,7 +9,7 @@ gabarito = input("Digite o gabarito (sem espaço e sem vírgula): ").lower()
 
 respostas_dos_alunos = []
 for i in range(5):
-    respostas = input(f"Digite as respostas do aluno {i+1} (juntas, sem espaço e sem virgula): ").lower()
+    respostas = input(f"Digite as respostas do aluno {i+1} (sem espaço e sem virgula): ").lower()
     respostas_dos_alunos.append(respostas)
 
 if len(gabarito) != 10:
@@ -19,3 +19,4 @@ else:
 
     for i, pontuacao in enumerate(pontuacoes):
         print(f"Aluno {i+1}: Pontuação = {pontuacao}")
+        
