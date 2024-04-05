@@ -1,5 +1,5 @@
 def main():
-    vetor = []
+    vetor = [int] * 8 
     for i in range(8):
         valor = int(input(f"Digite o valor para a posição do vetor {i}: "))
         vetor.append(valor)
