@@ -14,8 +14,8 @@ cidade2 = int(input("digite o número da segunda cidade: "))
 distancia = matriz[cidade1][cidade2]
 print(f"a distância entre a cidade {cidade1} e a cidade {cidade2} é de {distancia} km.")
 
-percurso = []
-coordenadas = min(int(input("quantas coordenadas voce quer? ")), 6)
+percurso = [int] * 6
+coordenadas = int(input("quantas coordenadas voce quer? "))
 distanciaTotal = 0
 for i in range(coordenadas):
     origem = int(input("informe a cidade de origem: "))
